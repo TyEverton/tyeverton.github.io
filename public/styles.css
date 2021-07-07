@@ -1,0 +1,174 @@
+body {
+  background-color: #3de7e7;
+  height: 300vh;
+}
+
+.button1 {
+align-items: center;
+margin-left: 5px;
+position: fixed;
+left: 85vw;
+top: 25px;
+background: none;
+border-radius: 25px;
+
+}
+
+
+.button2 {
+  align-items: center;
+  margin-left: 5px;
+  position: fixed;
+  left: 90vw;
+  top: 25px;
+  background: none;
+  border-radius: 25px;
+}
+
+.devicon-github-original {
+  position: fixed;
+  font-size: 3rem;
+  left: 86vw;
+  top: 55px;
+  border-style: none;
+  background: none;
+}
+
+.devicon-github-original:hover {
+  transform: scale(1.5);
+  top: 60px;
+}
+
+
+.devicon-linkedin-plain {
+  position: fixed;
+  font-size: 3rem;
+  left: 90.5vw;
+  top: 55px;
+  border-style: none;
+  background: none;
+}
+
+.devicon-linkedin-plain:hover {
+  transform: scale(1.5);
+  top: 60px;
+}
+
+.intro {
+font-family: "Montserrat"
+}
+
+.skills {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  font-family: "Montserrat";
+
+}
+
+/* .slider {
+  height: 150px;
+  margin: 5px;
+  overflow: hidden;
+} */
+
+/* .slider div {
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
+  animation: slide 35s linear infinite
+} */
+
+/* .slider-text1 {
+  color: black;
+  background: rgb(255, 115, 0);
+  font-family: "Montserrat";
+  animation: slide 5s linear infinite
+
+}
+.slider-text2 {
+  background: blue;
+  font-family: "Montserrat";
+
+}
+
+.slider-text3 {
+  color: black;
+  background: yellow;
+  font-family: "Montserrat";
+
+}
+.slider-text4 {
+  color: grey;
+  background: rgb(117, 177, 6);
+  font-family: "Montserrat";
+
+
+}
+.slider-text5 {
+  color: orange;
+  background: grey;
+  font-family: "Montserrat";
+
+} */
+
+/* @keyframes slide {
+  0% {margin-top: 5px;}
+  10% {margin-top: -50px;}
+  20% {margin-top: -100px;}
+  /* 30% {margin-top: -150px;}
+  40% {margin-top: -200px;}
+  50% {margin-top: -250px;}
+  60% {margin-top: -300px;}
+  70% {margin-top: -350px;}
+  80% {margin-top: -400px;}
+  100% {margin-top: -500px;} */
+  /* 0%{margin-top: 0px}
+
+  100%{margin-top: -500px} */
+/* } */ 
+
+
+.slidein {
+  float: left;
+  animation-duration: 5s;
+  animation-name: slidein;
+  font-size: 30px;
+  font-family: "Montserrat"
+}
+
+@keyframes slidein {
+  0%{margin-left: -40%}
+  100%{margin-left: 0%}
+}
+
+
+.about {
+  font-family: "Montserrat";
+  position: relative;
+  top: 730px;
+  right: 9vw;
+}
+
+.about-me-description {
+  font-family: "Montserrat";
+  position: relative;
+  top: 1vh;
+  right: 1vw;
+  font-size: 30px;
+  margin: 0px 0px 15px;
+}
+.closure {
+  font-family: "Montserrat";
+  position: relative;
+  top: 163vh;
+  right: 1vw;
+}
