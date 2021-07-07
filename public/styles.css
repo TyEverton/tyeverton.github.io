@@ -59,7 +59,7 @@ font-family: "Montserrat"
 }
 
 .skills {
-  font-size: 30px;
+  font-size: 55px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -69,7 +69,9 @@ font-family: "Montserrat"
   position: absolute;
   top: 250px;
   font-family: "Montserrat";
-
+}
+.devicon-git-plain-wordmark{
+  font-size: 85px;
 }
 
 /* .slider {
