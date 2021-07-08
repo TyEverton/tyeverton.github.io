@@ -1,44 +1,84 @@
 body {
   background-color: #cef8f8;
   height: 200vh;
+  width: 90vw;
 }
-
+.projects:hover {
+  color: white;
+  background: grey;
+}
 .projects {
+font-family: "Montserrat";
+transition: .5s ease;
 align-items: center;
 margin-left: 5px;
 position: absolute;
 left: 33vw;
 top: 60vh;
 background: none;
-border-radius: 15px;
+border-color: #cef8f8;
+border-radius: 10px;
+background-color: transparent;
 height: 75px;
 width: 150px;
+font-weight: bold;
+font-size: 15px;
 }
 
+.projects:hover {
+  color: white;
+  background: grey;
+  cursor: pointer;
+}
 
 .contact {
-  align-items: center;
-  margin-left: 5px;
-  position: absolute;
-  left: 46vw;
-  top: 60vh;
-  background: none;
-  border-radius: 15px;
-  height: 75px;
-  width: 150px;
+font-family: "Montserrat";
+transition: .5s ease;
+align-items: center;
+margin-left: 5px;
+position: absolute;
+left: 45vw;
+top: 60vh;
+background: none;
+border-radius: 10px;
+border-color: #cef8f8;
+background-color: transparent;
+height: 75px;
+width: 150px;
+font-weight: bold;
+font-size: 15px;
+}
+
+.contact:hover {
+  color: white;
+  background: grey;
+  cursor: pointer;
 }
 
 
 .hirety {
-  align-items: center;
-  margin-left: 5px;
-  position: absolute;
-  left: 59vw;
-  top: 60vh;
-  background: none;
-  border-radius: 15px;
-  height: 75px;
-  width: 150px;
+font-family: "Montserrat";
+transition: .6s ease;
+align-items: center;
+margin-left: 5px;
+position: absolute;
+left: 59vw;
+top: 60vh;
+background: none;
+border-color: #cef8f8;
+border-radius: 10px;
+background-color: transparent;
+height: 75px;
+width: 150px;
+font-weight: bold;
+font-size: 15px;
+}
+
+.hirety:hover {
+  color: white;
+  background: grey;
+  border: transparent;
+  cursor: pointer;
 }
 
 
@@ -86,6 +126,7 @@ top: 23vh;
 left: 27vw;
 font-size: 77px;
 }
+
 .skills {
   font-size: 55px;
   font-weight: bold;
@@ -219,4 +260,57 @@ font-size: 77px;
   right: 1vw;
   font-size: 30px;
   margin: 0px 0px 15px;
+}
+
+.contact-main {
+  font-family: "Montserrat";
+  position: fixed;
+  top: -7px;
+  left: 40vw;
+  font-size: 30px;
+  margin: 0px 0px 15px;
+}
+.contact-header {
+  font-family: "Montserrat";
+  position: fixed;
+  top: 4vh;
+  left: 42vw;
+  font-size: 50px;
+  margin: 0px 0px 15px;
+}
+
+.contact-footer {
+  font-family: "Montserrat";
+  position: fixed;
+  top: 94vh;
+  left: 28vw;
+  font-size: 40px;
+  margin: 0px 0px 15px;
+}
+
+.contact-body {
+  font-family: "Montserrat";
+  position: fixed;
+  top: 25vh;
+  left: 20vw;
+  font-size: 30px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: space-between;
+}
+
+.contact-short {
+  font-family: "Montserrat";
+  position: fixed;
+  top: 40vh;
+  left: 37vw;
+  font-size: 30px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	align-content: space-between;
 }
