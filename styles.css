@@ -94,7 +94,6 @@ font-size: 15px;
 .hirety:hover {
   color: white;
   background: grey;
-  border: transparent;
   cursor: pointer;
 }
 
