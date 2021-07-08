@@ -1,92 +1,91 @@
 body {
-  background-color: #3de7e7;
+  background-color: #cef8f8;
   height: 200vh;
 }
 
 .projects {
 align-items: center;
 margin-left: 5px;
-position: fixed;
-left: 87vw;
-top: 50vh;
+position: absolute;
+left: 33vw;
+top: 60vh;
 background: none;
 border-radius: 15px;
 height: 75px;
-width: 125px;
+width: 150px;
 }
 
 
 .contact {
   align-items: center;
   margin-left: 5px;
-  position: fixed;
-  left: 87vw;
+  position: absolute;
+  left: 46vw;
   top: 60vh;
   background: none;
   border-radius: 15px;
   height: 75px;
-  width: 125px;
+  width: 150px;
 }
 
 
 .hirety {
   align-items: center;
   margin-left: 5px;
-  position: fixed;
-  left: 87vw;
-  top: 25vh;
+  position: absolute;
+  left: 59vw;
+  top: 60vh;
   background: none;
   border-radius: 15px;
   height: 75px;
-  width: 125px;
+  width: 150px;
 }
 
 
 .devicon-github-original {
-  position: fixed;
+  position: absolute;
   font-size: 3rem;
-  left: 86vw;
-  top: 55px;
+  left: 94vw;
+  top: 35px;
   border-style: none;
   background: none;
 }
 
 .devicon-github-original:hover {
-  transform: scale(1.5);
-  top: 60px;
+  transform: scale(1.5);               
+  cursor: pointer;
 }
 
 
 .devicon-linkedin-plain {
-  position: fixed;
+  position: absolute;
   font-size: 3rem;
-  left: 90.5vw;
-  top: 55px;
+  left: 90vw;
+  top: 35px;
   border-style: none;
   background: none;
 }
 
 .devicon-linkedin-plain:hover {
   transform: scale(1.5);
-  top: 60px;
+  cursor: pointer;
 }
 
 .intro {
 font-family: "Montserrat";
 position: relative;
-top: -15px;
-left: 14px;
-font-size: 60px;
+top: 23vh;
+left: 33vw;
+font-size: 77px;
 }
 
 .intro2 {
-  font-family: "Montserrat";
-  position: relative;
-  top: -15px;
-  left: .5vw;
-  font-size: 60px;
+font-family: "Montserrat";
+position: relative;
+top: 23vh;
+left: 27vw;
+font-size: 77px;
 }
-
 .skills {
   font-size: 55px;
   font-weight: bold;
@@ -110,40 +109,14 @@ font-size: 60px;
 
 .devicon-git-plain-wordmark{
   font-size: 90px;
+  cursor: pointer;
 }
 
 .devicon-nodejs-plain {
   font-size: 70px;
-}
-.devicon-html5-plain:hover {
-  transform: scale(1.5);
-  margin: 15px;
+  cursor: pointer;
 }
 
-
-.devicon-css3-plain:hover {
-  transform: scale(1.5);
-  margin: 15px;
-}
-
-
-.devicon-javascript-plain:hover {
-  transform: scale(1.5);
-  margin: 15px;
-
-}
-
-.devicon-nodejs-plain:hover {
-  transform: scale(1.5);
-  margin: 15px;
- 
-}
-.devicon-git-plain-wordmark:hover {
-  transform: scale(1.5);
-  border: none;
-  margin: 15px;
- 
-}
 /* .slider {
   height: 150px;
   margin: 5px;
@@ -209,7 +182,7 @@ font-size: 60px;
 /* } */ 
 
 
-.slidein {
+/* .slidein {
   float: left;
   animation-duration: 5s;
   animation-name: slidein;
@@ -221,7 +194,7 @@ font-size: 60px;
 @keyframes slidein {
   0%{margin-left: -60%}
   100%{margin-left: 0%}
-}
+} */
 
 .about-container {
   overflow-wrap: break-word;
@@ -232,8 +205,8 @@ font-size: 60px;
   font-weight: bold;
   font-size: 35px;
   position: absolute;
-  top: 900px;
-  left: 18vw;
+  top: 110vh;
+  left: 17vw;
   margin: 55px;
   text-align: center;
   width: 60%;
@@ -242,7 +215,7 @@ font-size: 60px;
 
 .about-me-description {
   font-family: "Montserrat";
-  top: 1vh;
+  top: 13vh;
   right: 1vw;
   font-size: 30px;
   margin: 0px 0px 15px;
