@@ -291,7 +291,7 @@ font-size: 77px;
   font-family: "Montserrat";
   position: fixed;
   top: 4vh;
-  left: 42vw;
+  left: 40vw;
   font-size: 50px;
   margin: 0px 0px 15px;
 }
@@ -308,7 +308,7 @@ font-size: 77px;
 .contact-body {
   font-family: "Montserrat";
   position: fixed;
-  top: 25vh;
+  top: 20vh;
   left: 20vw;
   font-size: 30px;
   display: flex;
@@ -317,6 +317,7 @@ font-size: 77px;
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: space-between;
+  padding: 25px;
 }
 
 .contact-short {
@@ -346,3 +347,83 @@ font-size: 77px;
   cursor: pointer;
   color: grey;
 }
+
+.schedulebtn1 {
+font-family: "Montserrat";
+transition: .5s ease;
+align-items: center;
+margin-left: 5px;
+position: absolute;
+left: 26vw;
+top: 45vh;
+background: none;
+border-radius: 10px;
+border-color: #cef8f8;
+background-color: transparent;
+height: 75px;
+width: 150px;
+font-weight: bold;
+font-size: 15px;
+}
+
+.schedulebtn2 {
+  font-family: "Montserrat";
+  transition: .5s ease;
+  align-items: center;
+  margin-left: 5px;
+  position: absolute;
+  left: 45vw;
+  top: 45vh;
+  background: none;
+  border-radius: 10px;
+  border-color: #cef8f8;
+  background-color: transparent;
+  height: 75px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 15px;
+  }
+
+.schedulebtn1:hover {
+  color: white;
+  background: grey;
+  border: transparent;
+  cursor: pointer;
+  position: absolute;
+}
+
+.schedulebtn2:hover {
+  color: white;
+  background: grey;
+  border: transparent;
+  cursor: pointer;
+  position: absolute;
+}
+
+
+.phonebtn {
+font-size: 70px;
+background-color: transparent;
+border: none;
+position: absolute;
+left: 35vw;
+top: 17vh
+}
+
+.emailbtn {
+  font-size: 70px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 47vw;
+  top: 17vh;
+}
+
+.email {
+font-size: 25px;
+}
+
+.phone {
+  font-size: 25px;
+}
+
