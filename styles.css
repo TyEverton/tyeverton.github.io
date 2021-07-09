@@ -330,7 +330,7 @@ font-size: 77px;
 
 .contact-main {
   font-family: "Montserrat";
-  position: fixed;
+  position: absolute;
   top: -7px;
   left: 40vw;
   font-size: 30px;
@@ -338,13 +338,20 @@ font-size: 77px;
 }
 .contact-header {
   font-family: "Montserrat";
-  position: fixed;
+  position: absolute;
+  top: 0vh;
+  left: 3vw;
+  font-size: 70px;
+}
+
+.letschat {
+  font-family: "Montserrat";
+  position: absolute;
   top: 10vh;
-  left: 38vw;
+  left: 37vw;
   font-size: 70px;
   margin: 0px 0px 15px;
 }
-
 .contact-footer {
   font-family: "Montserrat";
   position: fixed;
@@ -356,7 +363,7 @@ font-size: 77px;
 
 .contact-body {
   font-family: "Montserrat";
-  position: fixed;
+  position: absolute;
   top: 20vh;
   left: 14vw;
   font-size: 30px;
@@ -403,7 +410,7 @@ font-size: 77px;
   margin-left: 5px;
   position: absolute;
   font-size: 20px;
-  left: 24vw;
+  left: 30vw;
   top: 59vh;
   background: none;
   border-radius: 10px;
