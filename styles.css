@@ -500,7 +500,7 @@ top: 30vh
 .emailtxt {
   display: none;
   transition: all 0.5s;
-  font-size: 25px;
+  font-size: 23px;
   position: absolute;
   right: -8vw;
 }
