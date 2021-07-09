@@ -137,7 +137,7 @@ font-size: 20px;
 
 
 .devicon-github-original {
-  position: absolute;
+  position: fixed;
   font-size: 3rem;
   left: 94vw;
   top: 35px;
@@ -152,7 +152,7 @@ font-size: 20px;
 
 
 .devicon-linkedin-plain {
-  position: absolute;
+  position: fixed;
   font-size: 3rem;
   left: 90vw;
   top: 35px;
@@ -339,7 +339,7 @@ font-size: 77px;
 .contact-header {
   font-family: "Montserrat";
   position: fixed;
-  top: 15vh;
+  top: 10vh;
   left: 38vw;
   font-size: 70px;
   margin: 0px 0px 15px;
@@ -460,7 +460,7 @@ background-color: transparent;
 border: none;
 position: absolute;
 left: 48vw;
-top: 30vh
+top: 25vh
 }
 
 .phonebtn:hover {
