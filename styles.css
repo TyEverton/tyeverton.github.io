@@ -55,23 +55,23 @@
   background: grey;
 }
 .projects {
-font-family: "Montserrat";
-transition: .5s ease;
-align-items: center;
-margin-left: 5px;
-position: absolute;
-left: 33vw;
-top: 70vh;
-background: none;
-border-color: #cef8f8;
-border-radius: 10px;
-border-color: #cef8f8;
-background-color: transparent;
-height: 95px;
-width: 190px;
-font-weight: bold;
-color: black;
-font-size: 20px;
+  font-family: "Montserrat";
+  transition: .5s ease;
+  align-items: center;
+  margin-left: 5px;
+  position: absolute;
+  left: 33vw;
+  top: 70vh;
+  background: none;
+  border-color: #cef8f8;
+  border-radius: 10px;
+  border-color: #cef8f8;
+  background-color: transparent;
+  height: 95px;
+  width: 190px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
 
 
@@ -82,25 +82,25 @@ font-size: 20px;
 }
 
 .contact {
-font-family: "Montserrat";
-align-items: center;
-margin-left: 5px;
-position: absolute;
-left: 46vw;
-top: 70vh;
-background: none;
-border-radius: 10px;
-border-color: #cef8f8;
-background-color: transparent;
-background: none;
-border-radius: 10px;
-border-color: #cef8f8;
-background-color: transparent;
-height: 95px;
-width: 190px;
-font-weight: bold;
-color: black;
-font-size: 20px;
+  font-family: "Montserrat";
+  align-items: center;
+  margin-left: 5px;
+  position: absolute;
+  left: 46vw;
+  top: 70vh;
+  background: none;
+  border-radius: 10px;
+  border-color: #cef8f8;
+  background-color: transparent;
+  background: none;
+  border-radius: 10px;
+  border-color: #cef8f8;
+  background-color: transparent;
+  height: 95px;
+  width: 190px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
 
 .contact:hover {
@@ -111,22 +111,22 @@ font-size: 20px;
 
 
 .hirety {
-font-family: "Montserrat";
-transition: .6s ease;
-align-items: center;
-margin-left: 5px;
-position: absolute;
-left: 59vw;
-top: 70vh;
-background: none;
-border-color: #cef8f8;
-border-radius: 10px;
-background-color: transparent;
-height: 95px;
-width: 190px;
-font-weight: bold;
-color: black;
-font-size: 20px;
+  font-family: "Montserrat";
+  transition: .6s ease;
+  align-items: center;
+  margin-left: 5px;
+  position: absolute;
+  left: 59vw;
+  top: 70vh;
+  background: none;
+  border-color: #cef8f8;
+  border-radius: 10px;
+  background-color: transparent;
+  height: 95px;
+  width: 190px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
 
 .hirety:hover {
@@ -166,19 +166,19 @@ font-size: 20px;
 }
 
 .intro {
-font-family: "Montserrat";
-position: absolute;
-top: 30vh;
-left: 33vw;
-font-size: 77px;
+  font-family: "Montserrat";
+  position: absolute;
+  top: 30vh;
+  left: 33vw;
+  font-size: 77px;
 }
 
 .intro2 {
-font-family: "Montserrat";
-position: absolute;
-top: 40vh;
-left: 23vw;
-font-size: 77px;
+  font-family: "Montserrat";
+  position: absolute;
+  top: 40vh;
+  left: 23vw;
+  font-size: 77px;
 }
 
 .skills {
@@ -440,7 +440,7 @@ font-size: 77px;
   font-weight: bold;
   color: white;
 
-  }
+}
 
 .schedulebtn1:hover {
   color: black;
@@ -462,12 +462,12 @@ font-size: 77px;
 
 
 .phonebtn {
-font-size: 70px;
-background-color: transparent;
-border: none;
-position: absolute;
-left: 48vw;
-top: 25vh
+  font-size: 70px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 48vw;
+  top: 25vh
 }
 
 .phonebtn:hover {
