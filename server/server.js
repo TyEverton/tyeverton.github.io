@@ -3,7 +3,7 @@ const path = require('path')
 
 const app = express()
 
-app.use(express.static(path.join(__dirname, '../pulic')))
+app.use(express.static(path.join(__dirname, '../public')))
 
 app.use("styles.css", express.static(path.join(__dirname, '/styles.css')))
 
@@ -16,5 +16,4 @@ const port = process.env.port || 4915
 
 app.listen(port, function() {
   console.log(`Server bumpin on ${port}`)
-
 })

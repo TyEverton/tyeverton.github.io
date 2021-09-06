@@ -319,14 +319,14 @@
   height: 50%;
   color: black;
 }
-/* .about-me-description {
+.about-me-description {
   font-family: "Montserrat";
   top: 13vh;
   right: 1vw;
   font-size: 34px;
   margin: 0px 0px 15px;
-  color: white;
-} */
+  color: black;
+}
 
 .contact-main {
   font-family: "Montserrat";
